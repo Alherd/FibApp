@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FibApp</string>
+    <string name="incorrect_input">Incorrect input</string>
+    <string name="too_large_number">Too large number</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="no_error">No error</string>
+    <string name="search">Поиск</string>
+</resources>
