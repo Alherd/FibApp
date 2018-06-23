@@ -23,16 +23,14 @@ public final class FibonacciHolder extends RecyclerView.ViewHolder {
         }
     };
     private boolean isThreadLiving;
-    private ExecutorService executorService;
     private int taskForExecutorCounter = 0;
 
     public FibonacciHolder(View itemView) {
         super(itemView);
         fibonacciNumberTextView = itemView.findViewById(R.id.fibonacciNumber);
-        executorService = Executors.newSingleThreadExecutor();
     }
 
-    public void cancel() {
+    private void cancel() {
         isThreadLiving = false;
     }
 
@@ -42,7 +40,8 @@ public final class FibonacciHolder extends RecyclerView.ViewHolder {
         if (taskForExecutorCounter == 1) {
             cancel();
         }
-        executorService.submit(new Runnable() {
+
+        ExecutorServiceCreator.getExecutorService().submit(new Runnable() {
             @Override
             public void run() {
                 isThreadLiving = true;
