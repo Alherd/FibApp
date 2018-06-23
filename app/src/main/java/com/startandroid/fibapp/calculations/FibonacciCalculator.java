@@ -1,6 +1,6 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.calculations;
 
-import android.util.Log;
+import com.startandroid.fibapp.interfaces.Getter;
 
 import java.math.BigInteger;
 

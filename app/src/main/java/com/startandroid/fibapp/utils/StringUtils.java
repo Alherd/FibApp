@@ -1,4 +1,4 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,4 +1,4 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.calculations;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;

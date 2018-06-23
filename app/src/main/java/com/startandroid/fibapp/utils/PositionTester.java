@@ -1,11 +1,14 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.utils;
 
 import android.support.annotation.Nullable;
 
+import com.startandroid.fibapp.R;
+import com.startandroid.fibapp.enums.ErrorType;
+
 import java.math.BigInteger;
 
-import static com.startandroid.fibapp.ErrorType.NOT_A_NUMBER;
-import static com.startandroid.fibapp.ErrorType.TOO_BIG_NUMBER;
+import static com.startandroid.fibapp.enums.ErrorType.NOT_A_NUMBER;
+import static com.startandroid.fibapp.enums.ErrorType.TOO_BIG_NUMBER;
 
 public final class PositionTester {
     public int getStringRecourseByEnteredString(final String POSITION) {

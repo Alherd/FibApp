@@ -1,4 +1,4 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.enums;
 
 public enum ErrorType {
     NOT_A_NUMBER,

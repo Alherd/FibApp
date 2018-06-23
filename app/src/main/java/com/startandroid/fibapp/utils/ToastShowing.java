@@ -1,4 +1,4 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.utils;
 
 import android.content.Context;
 import android.widget.Toast;

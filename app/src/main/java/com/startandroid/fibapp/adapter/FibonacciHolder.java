@@ -1,10 +1,13 @@
-package com.startandroid.fibapp;
+package com.startandroid.fibapp.adapter;
 
 import android.os.Handler;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.startandroid.fibapp.R;
+import com.startandroid.fibapp.calculations.FibonacciCalculator;
+import com.startandroid.fibapp.interfaces.Getter;
 
 import java.math.BigInteger;
 import java.util.concurrent.ExecutorService;
